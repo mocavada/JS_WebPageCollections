@@ -1,0 +1,40 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+thead {
+    background-color: #787878;
+}
+
+p {
+    font-weight: 100;
+}
+
+.btn {
+    background-color: #C2185B;
+    color: #fff;
+}
+
+.pageTitle {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+nav {
+    background-color: #C2185B;
+}
+
+
+#tableBody tr td:last-child {
+    color: #C2185B;
+    display: block;
+    transition: all 0.3s ease-out;
+
+}
+
+#tableBody tr td:last-child:hover {
+    color: #C2185B;
+    letter-spacing: 1px;
+    font-weight: 700;
+}

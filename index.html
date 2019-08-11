@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700&display=swap" rel="stylesheet">
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/main-top.js"></script>
+
+    <title>NET033 - Assignment 3</title>
+  </head>
+  <body>
+    <header id="headerBG">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <img src="img/lion-icon.png" alt="Smiley face" height="42" width="42">  
+            <a class="ml-2 navbar-brand" href="#">MarcMart</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Shop <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+               
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col">
+          <h2 class="pageTitle text-center">Shopping List</h2>
+          <p class="text-center">"Whoever said that money can’t buy happiness simply didn’t know where to go shopping."</p>
+        </div>
+      </div>
+     
+      <div class="row mt-4">
+        <div class="col">
+          <form>
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <input id="getItem" type="text" class="form-control" 
+                    placeholder="Enter Item">
+                  </div>
+                  <div class="form-group col-md-3">
+                    <input id="getQty" type="number" class="form-control" placeholder="Quantity">
+                  </div>
+                  <div class="form-group col-md-3">
+                      <input onclick="addRow();" type="button" value="Add" class="btn pl-5 pr-5 mb-2" onclick="addRow()">
+                  </div>
+                </div>
+            </form>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col">
+           
+            <table class="table">
+                <thead class="text-light">
+                  <tr>
+                    <th width="70%" scope="col">Enter Item</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col"></th>
+                 
+                  </tr>
+                </thead>
+                <tbody id="tableBody">
+                  <!-- <tr>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>Remove</td>
+                  </tr> -->
+                </tbody>
+              </table>
+        </div>
+      
+      </div>
+
+
+
+    </div>
+   
+
+    <script type="text/javascript" src="js/main-bottom.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
